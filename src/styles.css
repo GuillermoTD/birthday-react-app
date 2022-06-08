@@ -1,0 +1,24 @@
+:root {
+  --bg: #348fda;
+}
+
+body {
+  background: var(--bg);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  max-width: 60rem;
+  background: white;
+  width: 25rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
